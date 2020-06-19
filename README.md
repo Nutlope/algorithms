@@ -1,5 +1,5 @@
 # Data Structures and Algorithms
-This repository is for me to document my knowledge about common data structures and algorithms. It will also contain a folder for algorithm style questions from CTCI and leetcode later on.
+This repository is for me to document my knowledge on common data structures and algorithms. Folder with interview prep questions from CTCI and leetcode is also coming soon.
 
 ## Big O Notation
 
@@ -29,11 +29,10 @@ Rules of Thumb
 - Most primitaves are constant space (numbers, undefined, ect...)
 - Strings/Arrays/Objects require O(n) space (n is number of elements)
 
-### Object & Array Performance - maybe make 
+### Object & Array Performance
 - Objects have O(1) access, intertion, and removal, and O(N) searching.
 - They have O(N) for Object methods like .keys, .values, and .entries
-
-- Arrays O(1) access, O(N) search, and intertion/removal depends.
+- Arrays O(1) access, O(N) search, and intertion/removal depends on where
 
 ## Recursion
 
