@@ -34,6 +34,36 @@ Rules of Thumb
 - They have O(N) for Object methods like .keys, .values, and .entries
 - Arrays O(1) access, O(N) search, and intertion/removal depends on where
 
+## Problem Solving Approach
+**1. Understand the problem**
+- Make sure you can restate it in your own words
+- Inputs and outputs of the problem
+- Do I have enough info to solve the problem?
+- How do I label important pieces of data?
+
+**2. Explore Concrete Examples**
+- Start exploring simple examples
+- Progress to complex examples
+- Explore examples with empty / invalid inputs
+
+**3. Break it Down**
+- Explicitly write down the steps you need to take
+
+**4. Solve & Simplify**
+- Find the core difficulty
+- Temporarily ignore it and write a simplified version
+- Incorporate core difficulty into your solution
+
+**5. Look back and refactor**
+- Can you check the result?
+- Can you derive the result differently?
+- Can you understand it at a glance?
+- Can you improve the performance?
+- Other ways to refactor?
+- How have others solved this problem?
+
+## Problem Solving Strategies
+
 ## Recursion
 
 ## Searching Algorithms
