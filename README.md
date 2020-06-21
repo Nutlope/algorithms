@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-This repository is for me to document my knowledge on common data structures and algorithms. Folder with interview prep questions from CTCI and leetcode is also coming soon.
+This repository is for me to document my knowledge on common data structures and algorithms. Information is from CTCI and Javascript Algorithms and Data Structures by Colt Steele.
 
 ## Big O Notation
 
@@ -73,43 +73,3 @@ Rules of Thumb
 - Can you improve the performance?
 - Other ways to refactor?
 - How have others solved this problem?
-
-## Recursion
-
-## Searching Algorithms
-
-### Linear Search
-
-### Binary Search
-
-## Sorting Algorithms
-
-### Bubble Sort
-
-### Selection Sort
-
-### Insertion Sort
-
-### Quick Sort
-
-### Radix Sort
-
-## Linked Lists
-
-### Singly Linked Lists
-
-### Doubly Linked Lists
-
-## Stacks and Queues
-
-## Binary Search Trees
-
-## Binary Heaps
-
-## Hash Tables
-
-## Graphs
-
-## Djistra's Algorithm
-
-## Dynamic Programming
