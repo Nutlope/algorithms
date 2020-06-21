@@ -1,1 +1,0 @@
-// Documenting common graphs
