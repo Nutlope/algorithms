@@ -1,6 +1,6 @@
-// Frequency Counter
+// Frequency Counter Pattern
 
-// Ineffecient solution - O(n^3)
+// Ineffecient solution - O(n^2)
 
 function same(arr1, arr2) {
   if (arr1.length !== arr2.length) {
@@ -23,7 +23,7 @@ function same(arr1, arr2) {
 
 // Optimal Solution - O(N)
 
-function same(arr1, arr2) {
+function sameBetter(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
   }
@@ -48,16 +48,34 @@ function same(arr1, arr2) {
   return true;
 }
 
-console.log(same([1, 2, 4], [1, 4, 16]));
+console.log(sameBetter([1, 2, 4], [1, 4, 16]));
 
-// Multiple Pointers
+// Anagrams Problem: Given 2 strings, write a function to determine if the second string is an anagram of the first.
+// Assume everything is lowercase and no special characters including spaces
 
-// Sliding Window
+function validAnagram(str1, str2) {
+  if (str1.length !== str2.length) {
+    return false;
+  }
+  let freqCounter1 = {};
+  let freqCounter2 = {};
 
-// Divide and Conquer
+  for (let char of str1) {
+    freqCounter1[char] = (freqCounter1[char] || 0) + 1;
+  }
+  for (let char of str2) {
+    freqCounter2[char] = (freqCounter2[char] || 0) + 1;
+  }
 
-// Dynamic Programming
+  for (let key in freqCounter1) {
+    if (!(key in freqCounter2)) {
+      return false;
+    }
+    if (freqCounter2[key] !== freqCounter1[key]) {
+      return false;
+    }
+  }
+  return true;
+}
 
-// Greedy Algorithms
-
-// Backtracking
+console.log(validAnagram("hello", "hello"));

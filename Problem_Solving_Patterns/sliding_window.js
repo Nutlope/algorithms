@@ -1,0 +1,1 @@
+// The sliding window pattern
