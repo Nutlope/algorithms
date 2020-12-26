@@ -10,8 +10,6 @@
 function outputCalcuator(str) {
   let numArr = str.split(" "); // turns it into arr
 
-
-
 console.log(outputCalcuator("5 + 6 - 3 + 10")); // should return 18
 
 // one liner way to solve it --> eval("5 + 6 - 3 + 10");

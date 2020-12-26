@@ -2,7 +2,7 @@ class Node:
   def __init__(self, val, nxt=None):
     self.val = val
     self.next = nxt
-  def __str__(self):# d-under methods
+  def __str__(self):
     rv = []
     node = self
     while node:

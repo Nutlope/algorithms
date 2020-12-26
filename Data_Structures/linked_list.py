@@ -4,6 +4,13 @@ class Node:
     def __init__(self, val):
         self.val = val
         self.next = None
+    def __str__(self):
+        rv = []
+        node = self
+        while node:
+        rv.append(node.val)
+        node = node.next
+        return str(rv)
 
 class SinglyLinkedList: 
     def __init__(self):
