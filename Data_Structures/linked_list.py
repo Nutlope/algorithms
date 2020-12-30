@@ -8,8 +8,8 @@ class Node:
         rv = []
         node = self
         while node:
-        rv.append(node.val)
-        node = node.next
+            rv.append(node.val)
+            node = node.next
         return str(rv)
 
 class SinglyLinkedList: 
@@ -17,7 +17,15 @@ class SinglyLinkedList:
         self.head = None
         self.tail = None
         self.length = 0
+    def print(self):
+        rv = []
+        node = self.head
+        while node:
+            rv.append(node.val)
+            node = node.next
+        print(rv)
 
+    # Inserting at the end
     def push(self, val):
         new_node = Node(val)
         if self.head:
@@ -29,12 +37,26 @@ class SinglyLinkedList:
         self.length += 1
         return self
 
+    # Remove at the end
+    def pop(self):
+        if self.head is None: 
+            return None
+        cur = new_tail = self.head
+        while cur.next:
+            new_tail = cur
+            cur = cur.next
+        self.tail = new_tail
+        new_tail.next = None
+        self.length += 1
+
+        if self.length == 0:
+            self.head = None
+            self.tail = None
+        return cur
+
 list = SinglyLinkedList()
 list.push("hello")
 list.push("goodbye")
 list.push("cyaa")
-
-# Is there an easy way in python to print out this whole thing?
-print(list.head.val)
-print(list.tail.val)
-print(list.length)
+list.pop()
+list.print()
