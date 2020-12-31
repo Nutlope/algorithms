@@ -41,22 +41,114 @@ class SinglyLinkedList:
     def pop(self):
         if self.head is None: 
             return None
-        cur = new_tail = self.head
-        while cur.next:
-            new_tail = cur
+        cur = self.head
+        while cur.next.next:
             cur = cur.next
-        self.tail = new_tail
-        new_tail.next = None
-        self.length += 1
-
+        self.tail = cur
+        cur.next = None
+        self.length -= 1
+        
         if self.length == 0:
             self.head = None
             self.tail = None
         return cur
 
+    # Remove from the beginning
+    def shift(self):
+        if self.head is None: 
+            return None
+        cur = self.head
+        new_head = cur.next
+        self.head = new_head
+        cur.next = None
+        self.length -= 1
+        if (self.length == 0):
+            self.tail = None
+        return self
+    
+    # Adding from the beginning
+    def unshift(self, val):
+        new_node = Node(val)
+        if self.head is None:
+            self.head = new_node
+            self.tail = new_node
+        else:
+            cur = self.head
+            self.head = new_node
+            new_node.next = cur
+        self.length += 1
+        return self
+    
+    # Get value of a node at index
+    def get(self, idx):
+        cur = self.head
+        counter = 0
+        while cur:
+            if counter == idx:
+                return cur
+            cur = cur.next
+            counter +=1
+    
+    # Set value of a node at index
+    def set(self, val, idx):
+        found_node = self.get(idx)
+        if found_node:
+            found_node.val = val
+            return True
+        return False
+
+    # Insert node at an index
+    def insert(self, val, idx):
+        if idx < 0 or idx >= self.length:
+            return False
+        
+        if idx == 0:
+            return self.unshift(val) # figure out how to return boolean
+        
+        new_node = Node(val)
+        cur = self.get(idx)
+        if cur == self.tail:
+            return self.push(val)
+        old_next = cur.next
+        cur.next = new_node
+        new_node.next = old_next
+        self.length += 1
+        return True
+    
+    # Remove node at an index
+    def remove(self, idx):
+        if idx < 0 or idx >= self.length:
+            return False
+        
+        if idx == 0:
+            return self.shift() # figure out how to return boolean
+        
+        cur = self.get(idx)
+        if cur == self.tail:
+            return self.pop()
+        prev = self.get(idx-1)
+        removed = prev.next
+        prev.next = cur.next
+        self.length -= 1
+        return removed
+
+    # Reverse in-place in O(1) space
+    def reverse(self):
+        node = self.head
+        self.head = self.tail
+        self.tail = node
+        prev = None
+        
+        for i in range(self.length):
+            next = node.next
+            node.next = prev
+            prev = node
+            node = next
+
+
 list = SinglyLinkedList()
 list.push("hello")
 list.push("goodbye")
 list.push("cyaa")
-list.pop()
+list.reverse()
 list.print()

@@ -185,7 +185,5 @@ let list = new SinglyLinkedList(); // defining linked list
 list.push("1");
 list.push("2");
 list.push("3");
-// console.log(list.insert("999", 1));
-// list.remove(1);
 list.reverse();
 list.traverse();
