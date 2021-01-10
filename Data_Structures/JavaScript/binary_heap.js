@@ -11,7 +11,7 @@ class MaxBinaryHeap {
   constructor() {
     this.values = [41, 39, 33, 18, 27, 12];
   }
-  // 1. Add to end (start at end node on left
+  // 1. Add to end (start at end node on left)
   // 2. bubble up (compare with above, if bigger, swap and keep going)
   insert(element) {
     this.values.push(element);

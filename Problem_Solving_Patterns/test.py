@@ -1,52 +1,18 @@
-freq_counter_s = {}
-freq_counter_t = {}
-s = 'title'
-t = 'paper'
-yes = {(freq_counter_s[val] += 1 if val in freq_counter_s else freq_counter_s[val] = 1):  for val in s}
-for val in s:
-    if val in freq_counter_s:
-        freq_counter_s[val] += 1
-    else:
-        freq_counter_s[val] = 1
+some_string = 'hello'
+result = map(some_string.count, some_string)
+print(list(result))
 
-for val in t:
-    if val in freq_counter_t:
-        freq_counter_t[val] += 1
-    else:
-        freq_counter_t[val] = 1
-print(freq_counter_s)
-print(freq_counter_t)
+some_dict = dict(zip(some_string, some_string))
+print(some_dict)
 
-# # check if individual occurances is same
-# # s_nums = []
-# # for key in freq_counter_s:
-# #     s_nums.append(freq_counter_s[key])
+nums = [1,2,3]
+result = map(lambda x: x * 2, nums)
+print(list(result))
 
-# # t_nums = []
-# # for key in freq_counter_t:
-# #     t_nums.append(freq_counter_t[key])
+map(function, list) --> NEW LIST
 
-# # s_nums.sort()
-# # t_nums.sort()
-# # if s_nums == t_nums:
-# #     return True
-# # else:
-# #     return False
-# some_string = 'hello'
-# result = map(some_string.count, some_string)
-# print(list(result))
+nums = [1,2,3]
 
-# some_dict = dict(zip(some_string, some_string))
-# print(some_dict)
+result = map(lambda val: val*2 , nums)
 
-# nums = [1,2,3]
-# result = map(lambda x: x * 2, nums)
-# print(list(result))
-
-# map(function, list) --> NEW LIST
-
-# nums = [1,2,3]
-
-# result = map(lambda val: val*2 , nums)
-
-# print(list(result))
+print(list(result))
