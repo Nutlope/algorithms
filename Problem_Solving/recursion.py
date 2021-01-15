@@ -8,11 +8,10 @@ def isEven(some_lst):
         print("doesn't exist no mo")
         return True
 
-    if len(some_lst):
-        first = some_lst.pop(0)
-        print(some_lst)
-        if first % 2 != 0:
-            return False
-        isEven(some_lst)
+    print("something")
+    first = some_lst.pop(0)
+    if first % 2 != 0:
+        return False
+    return isEven(some_lst)
 
-print(isEven([22, 64, 42, 45]))
+print(isEven([22, 64, 43, 45]))
