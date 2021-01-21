@@ -1,3 +1,11 @@
+
+
+queue = [[1, cur.right], [2, cur.left], [2, cur.left]]
+depth = 1
+cur = cur.left
+
+
+
 # some_string = 'hello'
 # result = map(some_string.count, some_string)
 # print(list(result))
