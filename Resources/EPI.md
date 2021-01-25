@@ -1,7 +1,8 @@
 # Elements of Programming Interviews in Python - Notes
 
 ## Plan
-- Go through the book in iterations like sprints instead of slowly chapter by chapter. Do Ch.1-18.
+- ~~Go through the book in iterations like sprints instead of slowly chapter by chapter.~~ Go through Ch.1-18 chapter by chapter. At 2 problems per day, that's 60 problems per month and would mean I'd be done in 4 months.
+- "Focusing only on a single topic for a good amount of time will make you an expert in a much shorter amount of time than spreading your focus and jumping from discipline to discipline."
 
 ## Chapter 1 - Intro
 - Use EPI judge and discussion group on their site
