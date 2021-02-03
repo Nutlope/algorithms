@@ -74,5 +74,3 @@ def return_largest_3(nums):
   #               end
   # => -7
   nums => prefix_sum -> min_sofar
-  
-  
