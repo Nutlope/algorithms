@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-This repository is for me to document my knowledge on common data structures and algorithms. Information is from Elements of Programming Interviews, Leetcode and Colt Steele's 'Javascript Algorithms and Data Structures' course.
+This repository is for me to document my knowledge on common data structures and algorithms. Information is from Elements of Programming Interviews, Leetcode, and Colt Steele's 'Algorithms and Data Structures' course.
 
 ## Big O Notation
 
