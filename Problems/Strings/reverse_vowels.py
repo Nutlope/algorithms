@@ -6,8 +6,7 @@ def reverseVowels(s: str) -> str:
     # O(N) time, O(N) space
 
     # Use a set for because checking if an element is in a set is O(1) on average
-    vowels = set(list('aeiou'))
-
+    vowels = set(list('aeiouAEIOU'))
     l = 0
     r = len(s) - 1
     s = list(s)
@@ -26,3 +25,4 @@ def reverseVowels(s: str) -> str:
 # Test Cases
 assert reverseVowels("hello") == "holle"
 assert reverseVowels("leetcode") == "leotcede"
+assert reverseVowels("Ello") == "ollE"
