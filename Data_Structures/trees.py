@@ -1,3 +1,14 @@
+'''
+Uses: HTML DOM, network routing, Abstract Syntax Trees (ASTs)
+Binary Search Trees: Every node to the left is less and node to the right is bigger than it's parent
+Time: O(log n) insertion and searching on average & best case (should be balanced). 2nd best after O(1)
+Tree Traversal: How do we visit every single node? Breadth First (across, each level) and Depth First (down)
+DFS has Preorder, PostOrder, and InOrder 
+When do you use BFS vs DFS? Time complexity is the same, look at space complexity
+Wider trees, DFS is better, and longer trees BFS is generally better
+DFS Inorder gives you a list from smaller to bigger 
+'''
+
 # Binary Search Trees - BFS and DFS
 import collections
 
