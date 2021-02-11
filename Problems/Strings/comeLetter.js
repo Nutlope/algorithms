@@ -39,11 +39,6 @@ function comeLetter(s, t) {
       return obj;
     }
   }
-
-  // This was O(N^2) time complexity
-  // return t.filter((val) => {
-  //   return s.indexOf(val) == -1;
-  // }).join("")
 }
 
 // This entire problem in Python
