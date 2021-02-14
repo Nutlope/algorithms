@@ -42,6 +42,17 @@ class Graph:
       if vertex in self.adjacencyList[obj]:
         self.adjacencyList[obj].remove(vertex)
   
+  def BFS(self):
+    # start at arbitrary vertex & add to a queue
+    # explore elemements one by one from the queue, add all their neighbors to it.
+      # take element out of queue when explored all of it's neighbors
+    # keep going until there are no more elements in the queue
+    pass
+
+  def DFS_R(self):
+    # start at arbitrary vertex & add to a stack
+    # explore elements one by one from the stack, going deeper and deeper
+    pass
 
 graph = Graph()
 graph.addVertex(5)
@@ -53,8 +64,10 @@ graph.removeEdge(5,7)
 graph.removeVertex(7)
 print(graph)
 
-# implement BFS
-# implement DFS
+# BFS - Start from a vertex, visit all neighbors, then go to next vertex, visit all neighbors. Level by level.
+
+# DFS - Start from a vertex, visit 1 neighbor, visit its neighbor, & keep going until it's completely explored.
+# Then work your way back exploring all neighbors
 
 '''
 Resources:
