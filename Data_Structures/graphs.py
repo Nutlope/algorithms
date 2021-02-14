@@ -77,3 +77,10 @@ https://www.geeksforgeeks.org/union-find/
 https://algocoding.wordpress.com/2014/09/19/union-find-data-structure-disjoint-set-data-structure/
 https://algocoding.wordpress.com/2014/09/25/union-find-data-structure-disjoint-set-data-structure-part-2/
 '''
+
+# WTDs rn
+# 1. Go over BFS and DFS implementations in Python
+# 2. Play around with union find within graphs myself
+# 3. Revisit leetcode problems
+
+# General WTD: Go over python data structures and algos repo
