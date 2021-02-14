@@ -60,6 +60,8 @@ class Union:
 
 union = Union()
 union.add(1)
+union.add(1)
+union.add(1)
 union.add(2)
 union.add(3)
 union.add(4)
