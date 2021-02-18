@@ -1,4 +1,36 @@
-# This outlines the main techniques for solving each data structure
+# Main techniques for solving each data structure
+
+## General Problem Solving Approach: UMPIRE Method
+
+**1. Understand**
+
+- Make sure you can restate it in your own words
+- Explore examples with inputs and outputs
+- Question assumptions, clarify question
+
+**2. Match**
+
+- Match problem to specific data structures or patterns
+
+**3. Psuedocode**
+
+- Write pseudocode to catch bugs and show your thought process
+- Step through it to make sure it works theoretically
+
+**4. Implement**
+
+- Turn your pseudocode into actual code
+- Can abstract away certain functions and come back to them at the end
+
+**5. Review**
+
+- Trace through each line of your code with an input to make sure it works
+- Catch possible edge cases, errors, or missed steps, and debug them
+
+**6. Evaluate**
+
+- Analyze run time and space complexity
+- Discuss tradeoffs or assumptions
 
 ## Array
 
