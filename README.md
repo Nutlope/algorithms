@@ -9,9 +9,9 @@ This repository contains my notes on data structures and algorithms including pr
 │   ├── Python/                # All common data structures implemented in Python
 │   ├── JavaScript/            # All common data structures implemented in JavaScript
 ├── Problems/                  # Folder of leetcode problems broken down by data strcuture
-├── Resources/                 # Notes from the best resources I've found to crack coding interviews
+├── Resources/                 # My notes from the top resources to crack coding interviews
 │   ├── EPI                    # My notes from "Elements of Programming Interviews in Python"
-│   ├── Interview_handbook     # My notes from "Tech Interview Handbook" by Yangshun Tay
+│   ├── Handbook               # My notes from "Tech Interview Handbook" by Yangshun Tay
 │   ├── Interviews             # My notes from "The Interview Guide" by Kevin Naughton
 │   ├── Yousuck                # My notes from "Welcome to the Coding Interview - You Suck"
 ├── Techniques                 # Common techniques to solve algorithm problems
