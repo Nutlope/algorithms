@@ -1,9 +1,8 @@
 # Recursion is a process that calls itself
 # Uses: DOM/tree/graph traversal, JSON.stringify
 
-# Resurive function to check if items in a list are all even
-
 def isEven(some_lst):
+    # Recursive function to check if items in a list are all even
     if some_lst == []:
         print("doesn't exist no mo")
         return True
