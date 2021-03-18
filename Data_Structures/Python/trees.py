@@ -1,6 +1,12 @@
 '''
 Uses: HTML DOM, network routing, Abstract Syntax Trees (ASTs)
 Binary Search Trees: Every node to the left is less and node to the right is bigger than it's parent
+
+Ex:   4
+    2   7
+   1 3  5 11
+
+
 Time: O(log n) insertion and searching on average & best case (should be balanced). 2nd best after O(1)
 Tree Traversal: How do we visit every single node? Breadth First (across, each level) and Depth First (down)
 DFS has Preorder, PostOrder, and InOrder 
@@ -39,7 +45,9 @@ class BinarySearchTree:
         return root
 
     def PreOrder(self, root):
-        return [self.root.val] + self.PreOrder(self.root.left) + self.PreOrder(self.root.right) if self.root else []
+        if not self.root:
+            return []
+        return [self.root.val] + self.PreOrder(self.root.left) + self.PreOrder(self.root.right)
     
     def PostOrder(self, root):
         return self.PostOrder(self.root.left) + self.PostOrder(self.root.right) + [self.root.val] if self.root else []

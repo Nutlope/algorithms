@@ -1,7 +1,8 @@
 from typing import List  # Import for static type checking
 
 '''
-Leetcode problem 547: There are n cities. Some of them are connected, while some are not. If city a is connected directly with city b, and city b is connected directly with city c, then city a is connected indirectly with city c.
+Leetcode problem 547: There are n cities. Some of them are connected, while some are not. If city a is connected directly with city b, and city b is 
+connected directly with city c, then city a is connected indirectly with city c.
 
 NOT A VALID SOLUTION - CHECKS DIAGONALS
 

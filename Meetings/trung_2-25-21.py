@@ -14,9 +14,9 @@ matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,2
 target = 20
 
 Hint: O(RlogC) O(ClogR)  O(R + C) (2 ptrs)
-
-Brute force, 2 for loops search for that val, and return true/false
-O(N^2) time | O(1) space
+"""
+# Brute force, 2 for loops search for that val, and return true/false
+# O(N^2) time | O(1) space
 def findValinMatrix(matrix, target):
   for i in range(len(matrix)):
     for j in range(len(matrix[0])):
@@ -50,7 +50,7 @@ class Solution:
             else: 
                 c -= 1
         return False
-        
+"""
 ")()()()()())(" => False
 "()((())())" => True
 
