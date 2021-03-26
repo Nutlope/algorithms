@@ -100,22 +100,6 @@ print(getCode([5,7,1,4], 3))
 print(getCode([5,7,1,4], 0))
 print(getCode([2,4,9,3], -2))
 
-trung = "hello, i can't hear you"
-v shape code
-w
-if
-  if
-    if
-      if
-        if
-      else
-    else
-  else
-else
-
-function():
-  if k = 0: return
-
 """
 # Frontend?
 # 1. Vanilla JS (ineffecient, deal with the DOM directly)

@@ -42,6 +42,7 @@
 - 2D arrays
   - bitwise XOR with 1 to invert (val^1)
   - union find data structure
+- Always look at how big the input is, it will give you a clue as to what time complexity is expected
 - Optimizations
   - Write/delete values from the back of the array when possible to save on time complexity, like stack
   - If you need to delete values from front, consider overwriting them with 0 or -1 instead of popping
@@ -51,3 +52,4 @@
 - Two pointer technique
 - Unicode manipulation: using ord() and chr() to go from char to unicode and unicode to char respectively. Used in problems where we want to use the alphabet.
 - Finding palindromes: treat each letter as the center of a palindrome, and use two pointers on the outside to check
+- Use a stack for problems like valid paranthesis
