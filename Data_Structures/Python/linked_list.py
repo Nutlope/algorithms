@@ -2,7 +2,7 @@
 Linked List Implementation
 Linked lists - consists of nodes that are connected to each other, each containing a value and pointer to the next
 3 things we keep track of: Head is the beginning, tail is the end, and length
-If you care about insertion and deletion (esp from beginning), it's O(1) with LL
+If you care about insertion and deletion, it's O(1) with LL. This is either O(1) or O(N) with arrays depending on if inserting in the front or back.
 If you care about accessing and searching, arrays are probably better since they're O(1) but O(N) with LL
 '''
 # Linked List Implementation

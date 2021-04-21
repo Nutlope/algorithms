@@ -16,7 +16,7 @@ def maxSum(arr, k):
 
 print(maxSum(arr, 3))
 
-# Sliding method approach
+# Sliding method approach - O(N)
 def optimalMaxSum(arr,k):
     theSum, largestSum = 0, 0
     # calculate first sliding window
