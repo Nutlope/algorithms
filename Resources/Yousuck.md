@@ -6,18 +6,21 @@ These are my key takeaways from this [guide](https://docs.google.com/document/d/
 - It takes a long time to really understand data structures well, 200+ leetcode questions
 - It's not a game of luck, it's mostly a game of practice
 - Deliberate and consistent practice is how people become good at something.
-- Play the long game. I'm going to be interviewing in now and later this year, make sure I'm 200% ready for August and use interviews in March-June as practice.
+- Play the long game. I'm going to be interviewing in now and later this year, make sure I'm 200% ready for August and use interviews in May-July as practice.
 
 ### Reasons why someone would suck
+
 - Approach is not consistent
 - You're practicing incorrectly
 - You're not fast enough
 
 ## How to get good
+
 - Focus on one topic at a time, drill down on it until you really know it
 - Don't worry about repeating problems, if you don't understand do them again and again
 
 ### Decode the usage of each DS & Algo
+
 - Understand the DS or algo to the point where you can implement off the top of your head
 - Derive rules for when to use diff things? I.e, mergesort when O(N^2) is not tolerated and there's lots of memory
 - Backtest those rules and understand when they don't work
@@ -25,7 +28,7 @@ These are my key takeaways from this [guide](https://docs.google.com/document/d/
 
 ### General Approach
 
-1. Look at the characteristics in the problem. Can you combine a sufficient number of these characteristics and match them to a known data structure/algorithm? 
+1. Look at the characteristics in the problem. Can you combine a sufficient number of these characteristics and match them to a known data structure/algorithm?
 2. Generate a few examples. What are the patterns generated from the examples? What will the algorithm look like?
 3. Look at every substep of the algorithm. For every substep, go back to step 1 with the question “how can I optimize this substep?”
 
