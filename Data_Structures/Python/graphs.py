@@ -69,6 +69,18 @@ print(graph)
 # DFS - Start from a vertex, visit 1 neighbor, visit its neighbor, & keep going until it's completely explored.
 # Then work your way back exploring all neighbors
 
+# Djikrtra's Algorithm - Greedy
+# Shortest path to traverse a graph starting at a specific source.
+# O(N^2) worst case
+# Start from the selected node. Then check the distance to every possible node, and select the smallest one.
+# Modify the current distance for each node as you go through.
+# Rinse and repeat until you've traversed every node. Don't traverse a node that was already selected
+
+# Floyd-Warshall Algorithm - DP
+# This is for all pairs shortest path, we can use Djiktra's but it will take n^3
+# Started with a matrix that showed directly how expensive it is from one node to another
+# Then we use matrices for each node to put in the middle. A1 where node 1 is the middle node, ect, 
+
 '''
 Resources:
 https://www.youtube.com/watch?v=j0IYCyBdzfA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=12&ab_channel=codebasics
@@ -80,7 +92,6 @@ https://algocoding.wordpress.com/2014/09/25/union-find-data-structure-disjoint-s
 
 # WTDs rn
 # 1. Go over BFS and DFS implementations in Python
-# 2. Play around with union find within graphs myself
-# 3. Revisit leetcode problems
+# 2. Revisit leetcode problems
 
 # General WTD: Go over python data structures and algos repo
