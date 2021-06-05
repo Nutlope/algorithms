@@ -1,4 +1,7 @@
 '''
+Two variations: Binary Trees and Binary search trees.
+Main things: BFS & DFS.
+
 Uses: HTML DOM, network routing, Abstract Syntax Trees (ASTs)
 Binary Search Trees: Every node to the left is less and node to the right is bigger than it's parent
 
